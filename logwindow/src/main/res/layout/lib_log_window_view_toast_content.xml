@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/lib_log_window_bg_toast">
+
+        <ListView
+            android:transcriptMode="alwaysScroll"
+            android:id="@+id/list"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="5dp"
+            android:divider="#00ffffff"
+            android:gravity="center"
+            android:textSize="15sp" />
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="selected">#e5e5e5</color><!-- 状态栏-->
+    <color name="unselect">#fff</color><!-- 状态栏-->
+</resources>
